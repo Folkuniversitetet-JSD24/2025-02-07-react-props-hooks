@@ -1,0 +1,21 @@
+/* Styling in this file should be 'global' styling and imports of other stylesheets */
+
+@import url('./App.css');
+@import url('./components/AuthBadge.css');
+@import url('./components/CustomButton.css');
+@import url('./components/Header.css');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.g-container {
+  padding-inline: 1rem; /* Padding-inline is padding on the left and right side */
+}
+
+body {
+  padding-top: 53px;
+}
+
